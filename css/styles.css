@@ -129,11 +129,12 @@ a.nav-link{
 
 .sp-5{
     padding-right: 5%;
+    text-align: center;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
     color: white !important;
-    background: green;
+    background: #03bb97;
     padding-top: 0.4%;
     padding-bottom: 0.4%;
 }
@@ -150,12 +151,12 @@ a.nav-link{
 }
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: .7rem !important;
         padding-left: .7rem !important;
     }
-}
+} */
 
 .slider1 , .slider2 , .slider3{
     background-image: url('../img/slider/1.jpg') !important; 
@@ -195,30 +196,79 @@ a.nav-link{
     margin-top: 3%;
     margin-right: 75%;
     padding: 2% 5%;
-    background: #03bb97;
+    background: rgba(3,187,151,.7);
+    /* background: #03bb97; */
     color:white;
     font-weight: bold;
     text-shadow: 1px 1px black;
     box-shadow: 0 0 1em black;
 }
 
-.boton-slide a, .boton-slide a:hover{
+.boton-slide a, .boton-slide a:hover , .boton-slide:hover{
     color:white;
     text-shadow: 1px 1px black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .boton-slide:hover{
+    /* background: rgba(3,187,151,.5); */
+    background: #03bb97;
     transition: 1s;
-    -webkit-transform:scale(.9);
-    transform:scale(.9);
-    overflow:hidden;
-    cursor:pointer;
 }
+
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: inline-block;
     width: 40px !important;
     height: 60px !important;
     background: no-repeat 50%/100% 100%;
+}
+
+.margin-section{
+    padding-top: 7%;
+    padding-bottom:7%;
+}
+
+.img-mision{
+    padding-left: 18%;
+}
+
+
+.boton{
+    margin-top: 3%;
+    margin-right: 65%;
+    padding: 2% 5%;
+    background: #c4996c;
+    /* background: #03bb97; */
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boton a, .boton a:hover , .boton:hover{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.boton:hover{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mision-text{
+    color: #c4996c;
+    font-weight: bold;
+}
+
+.span-mision{
+    color:gray !important;
+    font-size: 1.5rem;
+}
+
+.bg-gray{
+    background: gray;
+    padding-top:7%;
+    padding-bottom:7%;
 }
