@@ -29,6 +29,10 @@
     <?php include ('inc/mision.php') ?>
 </section>
 
+<section class="bg-gray">
+    <?php include ('inc/novedades.php') ?>
+</section>
+
 
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
