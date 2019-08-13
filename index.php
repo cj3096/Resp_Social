@@ -21,6 +21,10 @@
 
 <?php include ('inc/header.php') ?>
 
+<section>
+    <?php include ('inc/slider.php') ?>
+</section>
+
 
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>

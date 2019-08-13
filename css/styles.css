@@ -4,7 +4,7 @@ html,body{
     height: 100%;
 }
 
-.menu{
+/* .menu{
     height: 100%;
     overflow: hidden;
 }
@@ -106,4 +106,53 @@ nav.active .menu-link{
 
 .menu.active .menu-hamburger{
     background: transparent;
+} */
+
+
+.menu-derecha{
+    display: contents !important;
+}
+
+.centrarimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rs-80{
+    width: 80%;
+}
+
+a.nav-link{
+    font-size: .9rem !important;
+}
+
+.sp-5{
+    padding-right: 5%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white !important;
+    background: green;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.8) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black !important;
+    font-weight: bold !important;
+    transition: 0.1s !important;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .7rem !important;
+        padding-left: .7rem !important;
+    }
 }
